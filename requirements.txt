@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+sqlalchemy
+asyncpg
+alembic
+python-multipart
+pytz
+celery
+redis
+python-dotenv
