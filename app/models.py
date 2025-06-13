@@ -12,11 +12,13 @@ from app.database import Base
 class StoreStatusEnum(enum.Enum):
     active="active"
     inactive="inactive"
+    
 
 class ReportStatusEnum(enum.Enum):
     running="Running"
     complete="Complete"
     failed="Failed"
+    pending = "pending"
 
 class StoreStatus(Base):
     __tablename__="store_status"
